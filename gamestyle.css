@@ -1,0 +1,154 @@
+
+
+:root {
+  --main-border-color: #8DC2FF;
+  --main-txt-color: blue;
+  --main-padding: 15px;
+}
+
+
+* {
+ box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+button.switch_modes{
+
+  height: 30%;
+  width: 40%;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+img.graph_img{
+  display: block;
+  height: 40vh;
+  max-width: 100%;
+
+}
+
+
+
+div.white_text_large {
+  color: white;
+  font-family: Avenir;
+  font-weight: 800;
+  font-size: 3vh;
+}
+
+div.white_text_med {
+  padding-top: 1vh;
+  color: white;
+  font-family: Avenir;
+  font-weight: 400;
+  font-size: 2vh;
+}
+
+div.white_text_small {
+  color: white;
+  font-family: Avenir;
+  font-weight: 400;
+  font-size: 1vh;
+}
+
+
+div.blue_text_med {
+  color: #4A90E2;
+  font-family: Avenir;
+  font-weight: 600;
+  font-size: 1.8vh;
+}
+
+
+button.submit_button {
+  height: 4vh;
+  background-color: #7ED321;
+  border-radius: 9px;
+
+}
+
+form.special_form input{
+  text-align: center;
+  font-size: 1.5vh;
+  height: 3vh;
+  width: 10vw;
+  background: white;
+  border: 2px solid var(--main-border-color);
+  border-radius: 9px;
+}
+
+#special_form_long_w {
+  text-align: center;
+  font-size: 1.5vh;
+  height: 3vh;
+  width: 30vw;
+  background: white;
+  border: 2px solid var(--main-border-color);
+  border-radius: 9px;
+}
+
+
+
+
+#center_flex {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#box1 {
+  flex-basis: 15% | auto;
+  flex-grow: 1.5;
+}
+
+#box2 {
+  flex-basis: 40% | auto;
+  flex-grow: 4;
+}
+
+#box3 {
+  flex-basis: 35% | auto;
+  flex-grow: 3.5;
+}
+
+#submit {
+  display: flex;
+  min-height: calc(30%);
+}
+
+#main {
+  display: flex;
+  min-height: calc(65vh  );
+}
+
+#main > article {
+  flex: 1;
+}
+#main > nav,
+#main > aside {
+  flex: 0 0 1 0vw;
+  background: beige;
+}
+#main > nav {
+  order: -1;
+}
+header, footer, article, nav, aside {
+  padding: 1em;
+}
+
+header{
+  background: white;
+  height: 15vh;
+}
+
+footer {
+  background: #4AE29B;
+  height: 20vh;
+}
+
+article, nav, aside {
+  background: #4A90E2;
+}
