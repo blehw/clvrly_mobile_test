@@ -32,7 +32,6 @@ img.graph_img{
 }
 
 
-
 div.white_text_large {
   color: white;
   font-family: Avenir;
@@ -71,6 +70,9 @@ div.blue_text_med {
   font-size: 1.8vh;
 }
 
+
+.container-outer { overflow: scroll; width: 500px; height: 210px; }
+.container-inner { width: 10000px; }
 
 button.submit_button {
   height: 3vh;
@@ -147,7 +149,7 @@ header, footer, article, nav, aside {
 
 header{
   background: white;
-  height: 15vh;
+  height: 13vh;
 }
 
 footer {
