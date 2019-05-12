@@ -27,6 +27,7 @@ img.graph_img{
   display: block;
   height: 40vh;
   max-width: 100%;
+  padding-bottom: 1vh;
 
 }
 
@@ -40,12 +41,20 @@ div.white_text_large {
 }
 
 div.white_text_med {
-  padding-top: 1vh;
   color: white;
   font-family: Avenir;
   font-weight: 400;
   font-size: 2vh;
 }
+
+div.white_text_med_small {
+  color: white;
+  font-family: Avenir;
+  font-weight: 400;
+  font-size: 1.5vh;
+}
+
+
 
 div.white_text_small {
   color: white;
@@ -64,10 +73,10 @@ div.blue_text_med {
 
 
 button.submit_button {
-  height: 4vh;
+  height: 3vh;
   background-color: #7ED321;
+  border: 2px solid #7ED321;
   border-radius: 9px;
-
 }
 
 form.special_form input{
@@ -89,9 +98,6 @@ form.special_form input{
   border: 2px solid var(--main-border-color);
   border-radius: 9px;
 }
-
-
-
 
 #center_flex {
   height: 100%;
