@@ -17,10 +17,16 @@ body {
 button.switch_modes{
 
   height: 30%;
-  width: 40%;
   background: #FFFFFF;
   border-radius: 10px;
   margin: 10px;
+}
+
+button.submit_button {
+  height: 3vh;
+  background-color: #7ED321;
+  border: 2px solid #7ED321;
+  border-radius: 9px;
 }
 
 img.graph_img{
@@ -85,12 +91,7 @@ div.blue_text_med {
 .container-outer { overflow: scroll; width: 500px; height: 10vh; }
 .container-inner { width: 90vw; }
 
-button.submit_button {
-  height: 3vh;
-  background-color: #7ED321;
-  border: 2px solid #7ED321;
-  border-radius: 9px;
-}
+
 
 form.special_form input{
   text-align: center;
