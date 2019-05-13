@@ -29,6 +29,17 @@ img.graph_img{
   max-width: 100%;
   padding-bottom: 1vh;
 
+
+}
+
+img.function_preview{
+  padding-top: 0.5vh;
+  display: block;
+  max-width: 10vh;
+}
+
+img.test{
+  height: 10vh;
 }
 
 
@@ -71,8 +82,8 @@ div.blue_text_med {
 }
 
 
-.container-outer { overflow: scroll; width: 500px; height: 210px; }
-.container-inner { width: 10000px; }
+.container-outer { overflow: scroll; width: 500px; height: 10vh; }
+.container-inner { width: 90vw; }
 
 button.submit_button {
   height: 3vh;
@@ -148,7 +159,7 @@ header, footer, article, nav, aside {
 }
 
 header{
-  background: white;
+  background: #4A90E2;
   height: 13vh;
 }
 
