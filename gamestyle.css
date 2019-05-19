@@ -2,6 +2,9 @@
 
 :root {
   --main-border-color: #8DC2FF;
+  --question-card-color: #8DC2FF;
+  --correct-card-color: #4AE19B;
+  --incorrect-card-color: #F4C088;
   --main-txt-color: blue;
   --main-padding: 15px;
 }
@@ -16,7 +19,7 @@ body {
 
 button.switch_modes{
 
-  height: 30%;
+  min-height: 30%;
   background: #FFFFFF;
   border-radius: 10px;
   margin: 10px;
@@ -27,6 +30,28 @@ button.submit_button {
   background-color: #7ED321;
   border: 2px solid #7ED321;
   border-radius: 9px;
+}
+
+button.next_button_correct {
+  height: 7vh;
+  width: 14vh;
+  font-size: 3vh;
+  background-color: white;
+  border: 2px solid var(--correct-card-color);
+  border-radius: 9px;
+  font-weight: 600;
+  color: var(--correct-card-color);
+}
+
+button.next_button_incorrect {
+  height: 7vh;
+  width: 14vh;
+  font-size: 3vh;
+  background-color: white;
+  border: 2px solid var(--incorrect-card-color);
+  border-radius: 9px;
+  font-weight: 600;
+  color: var(--incorrect-card-color);
 }
 
 img.graph_img{
@@ -48,6 +73,45 @@ img.test{
   height: 10vh;
 }
 
+/* Cards for MC */
+div.card {
+  height: 35vh;
+  width: 35vh;
+  border-radius: 2vh;
+}
+
+
+div.question  {
+  background: var(--question-card-color) !important;
+
+}
+
+div.correct   {
+  background: var(--correct-card-color);
+}
+
+div.incorrect {
+  background: var(--incorrect-card-color);
+}
+
+/* Spacing */
+div.spacing_25p {
+  height: calc(35vh/4);
+}
+
+div.inner_question {
+
+  width: 35vh;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-family: Avenir;
+  font-weight: 800;
+  font-size: 3vh;
+}
+
+/* Text */
 
 div.white_text_large {
   color: white;
