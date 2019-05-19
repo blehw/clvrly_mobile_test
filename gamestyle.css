@@ -141,7 +141,7 @@ form.special_form input{
 
 #main {
   display: flex;
-  min-height: calc(65vh  );
+  min-height: calc(66vh  );
 }
 
 #main > article {
@@ -166,7 +166,7 @@ header{
 
 footer {
   background: #4AE29B;
-  height: 20vh;
+  height: 21vh;
 }
 
 article, nav, aside {
